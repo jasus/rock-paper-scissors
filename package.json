@@ -1,0 +1,21 @@
+{
+    "name": "rock-paper-scissors",
+    "version": "1.0.0",
+    "description": "Rock Paper Scissors hand game",
+    "scripts": {
+        "start": "npm-run-all -p start:*",
+        "install": "npm-run-all -p install:*",
+        "start:frontend": "cd frontend && npm start",
+        "start:backend": "cd backend && npm start",
+        "install:frontend": "cd frontend && npm install",
+        "install:backend": "cd backend && npm install",
+        "test": "npm-run-all -p test:*",
+        "test:front": "cd frontend && npm test",
+        "test:backend": "cd backend && npm test"
+    },
+    "author": "Jesús",
+    "license": "MIT",
+    "devDependencies": {
+        "npm-run-all": "^4.1.3"
+    }
+}
